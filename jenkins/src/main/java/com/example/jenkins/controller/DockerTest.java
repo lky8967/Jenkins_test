@@ -9,7 +9,7 @@ public class DockerTest {
 
     @GetMapping("/")
     public String hello(){
-        return "hello 씨발";
+        return "hello 씨발 !";
     }
 
 }
