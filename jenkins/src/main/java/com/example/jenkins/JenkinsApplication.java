@@ -12,7 +12,7 @@ public class JenkinsApplication {
     public String hello(){
         return "hello spring Boot!";
     }
-    
+
     public static void main(String[] args) {
         SpringApplication.run(JenkinsApplication.class, args);
     }
